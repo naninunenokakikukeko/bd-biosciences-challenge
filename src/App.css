@@ -1,0 +1,65 @@
+.App {
+  margin: 50px auto;
+  padding-left: 100px;
+  width: 1000px;
+  background-color: #d3d3d3;
+}
+
+.App form {
+  display: block;
+  width: 450px;
+
+}
+
+.App form input[type="text"] {
+  margin-right: 10px;
+}
+
+.App .todoContent {
+  display: flex;
+  justify-content: start;
+}
+
+.App .todoContent section {
+  width: 450px;
+  padding-right: 10px;
+}
+
+.App .todoContent section h4 {
+  padding-left: 10px;
+}
+
+.App .todoContent ul {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.App .todoContent li {
+  background-color: #C4C4C4;
+  margin-bottom: 5px;
+}
+
+.App .todoContent li:hover {
+  background-color: #4C4C4C;
+}
+
+.App .todoContent li:active {
+  background-color: #7A96AF;
+}
+
+.App .todoContent li span {
+  padding: 0px 5px;
+}
+
+.App .todo li{
+
+}
+
+.App .done li {
+  text-decoration: line-through;
+}
